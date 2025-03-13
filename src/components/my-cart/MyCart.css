@@ -1,0 +1,25 @@
+.cart-item {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 1vw;
+    margin: 2vh 1vw;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    justify-content: space-between;
+    width: 50%;
+  }
+  
+  .cart-item-image img {
+    width: auto;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    /* padding-left: 3vw; */
+  }
+  .remove-button{
+    height: 4vh;
+    width: auto;
+  }
+  
+  
+  

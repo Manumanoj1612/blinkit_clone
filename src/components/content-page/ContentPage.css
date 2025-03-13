@@ -1,0 +1,76 @@
+.main-home-page-container {
+    /* margin-left: 1.5vh; */
+    width: 100vw;
+    height: 100vh;
+}
+
+.banner-container {
+    width: 100%;
+}
+
+.banner-container img {
+    width: 100%;
+    height: 40vh;
+}
+.item-select-container .MuiBox-root{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} 
+
+.banner-content-container {
+    display: flex;
+    gap: 1.5vw;
+    /* width: 100vw; */
+    height: 35vh;
+    /* padding-left: 2vw; */
+    overflow-x: auto;
+    scrollbar-width: thin;
+
+}
+
+.card-item-container{
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 1.5vw;
+    padding: 1.5vh;
+    /* width: 100vw; */
+    
+}
+
+.sub-card-item-container{
+    display: inline-block;
+
+    /* overflow-x: auto; */
+    /* width: vw; */
+}
+.main-sub-page {
+    padding: 1vh 1vw;
+}
+/* .product-card-contaier{
+    position: relative;
+    overflow-x: auto;
+    width: 80vw;
+} */
+
+@media only screen and (max-width: 979px) {
+    .banner-container {
+        width: auto;
+        height: auto;
+    }
+
+    .banner-content-container {
+        height: 20vh;
+        /* width: 100%; */
+    }
+
+    /*.item-select-container {
+        /* width: 100vw;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+    } */
+}
